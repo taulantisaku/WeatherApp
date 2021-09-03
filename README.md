@@ -9,10 +9,8 @@
  
  There are 2 API endpoints requests I used to fetch the data generated from the website AccuWeather : 
  
- - Location (City)
- - Weather conditions
-
-The code of this part is as shown below.
+ - Location (City) using **getCity** function
+ - Weather conditions using **getWeather** function
 
 ![Weather   City API](https://user-images.githubusercontent.com/44265863/132055189-bfa11c46-e4c4-4f19-8d7b-40fae87dd5d4.jpg)
 
