@@ -25,5 +25,8 @@ In the other hand, using DOM manipulation we can set the image of the weather to
  
  ![updateCity](https://user-images.githubusercontent.com/44265863/132057320-8db2e01e-52ae-4bf3-869c-b705873f7fa7.jpg)
 
+ In the end we added local storage to the app, in order to get the last city that has been checked from the user :
  
+ ![localStorage](https://user-images.githubusercontent.com/44265863/132099390-96184ce5-0e3f-42a1-8507-a72da09e7ad0.jpg)
+
  
