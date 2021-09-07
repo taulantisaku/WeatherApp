@@ -1,7 +1,7 @@
 # WeatherApp
  This is a simple weather app made with Javascript.
  
- The main purpose of this app was the usage of **Async & Await** functions with promises and manipulation with DOM. 
+ The main purpose of this app was getting the weather information from usage of **Async & Await** functions with promises and manipulation with DOM. 
  Therefore, there are 2 scripts on this file : 
  - app.js (used for DOM manipulation)
  - forecast.js (used to get the weather API) 
