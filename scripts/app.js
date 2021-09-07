@@ -23,7 +23,7 @@ const updateUI = (data) => {
   const iconSrc = `img/icons/${weather.WeatherIcon}.svg`;
   icon.setAttribute("src", iconSrc);
 
-  let timeSrc = weather.isDayTime ? "img/day.svg" : "img/night.svg";
+  const timeSrc = weather.IsDayTime ? "img/day.svg" : "img/night.svg";
   time.setAttribute("src", timeSrc);
 
   // remove the d-none class if present
@@ -46,12 +46,13 @@ cityForm.addEventListener("submit", (e) => {
     .then((data) => updateUI(data))
     .catch((err) => console.log(err));
 
-  //set local storage
+  // set local storage
   localStorage.setItem("city", city);
 });
-//check if city exists
+
 if (localStorage.getItem("city")) {
-  updateCity(localStorage.getItem("city"))
+  forecast
+    .updateCity(localStorage.getItem("city"))
     .then((data) => updateUI(data))
     .catch((err) => console.log(err));
 }
