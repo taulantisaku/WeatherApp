@@ -30,3 +30,10 @@ In the other hand, using DOM manipulation we can set the image of the weather to
  ![localStorage](https://user-images.githubusercontent.com/44265863/132099390-96184ce5-0e3f-42a1-8507-a72da09e7ad0.jpg)
 
  
+After completion of the project, I tried to implement the Object Oriented Programming logic into the code. 
+All those separate functions were bundled together into a single **class Forecast**  as asynchronus methods. 
+Then a new instance of Forecast class was created with those properties.
+
+![Forecast class](https://user-images.githubusercontent.com/44265863/132309419-9bcdb27b-0a6e-40f7-9a1a-2315fa77fa46.jpg)
+
+
