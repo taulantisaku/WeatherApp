@@ -1,5 +1,5 @@
 # WeatherApp
- This is a simple weather app made with Javascript.
+ This is a simple Weather Forecast app made with pure Javascript.
  
  The main purpose of this app was getting the weather information from usage of **Async & Await** functions with promises and manipulation with DOM. 
  Therefore, there are 2 scripts on this file : 
